@@ -1,0 +1,234 @@
+/*Cabeçalho*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* MENU */
+
+
+
+.content {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f1e1f;
+    position: fixed;
+    padding-left: 30rem;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo h3 {
+   color: white;
+   font-size: 1.6rem;
+
+}
+
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .list-menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover{
+    background-color: #333333;
+    border-bottom: 4px solid #f91717;  
+    color: #f91717;
+}
+
+
+
+/*Cardápio*/
+.cardapio {
+    text-align: center;
+    font-size: 6rem;
+    font-size: 60px;
+    color: #ffffff;
+    background: #630f0f;
+}
+.cardapio p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tipos{
+    text-align: center;
+    font-size: 6rem;
+    font-size: 60px;
+    color: #ffffff;
+}
+.cardapio p{
+    color: #ffffff;
+    font-weight: bold;
+}
+.pedido{
+   background-color: #861414;
+    color: #ffffff;
+    border: none;
+    font-size: larger;
+    border-radius: 1em; 
+}
+.cardapio:hover{
+    background-color: #630f0f;
+    
+}
+.pedido:hover{
+    background-color: #630f0f;
+   
+}
+.imagemp:hover{
+    width: 250px;
+}
+.cabecalho{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.menupedidos{
+ display: flex; 
+ align-items: center; 
+ justify-content: center;   
+}
+/*Corpo do página*/
+body{
+    background-color: #302f30;
+}
+/*Cardapio*/
+.cdp{
+    font-size: 75px;
+    color:#28aa26;
+}
+.cdp:hover{
+    color: #1f7c1e;
+}
+.saboresc{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+/* .sabores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80%;
+    
+} */
+/*Configurações das DIV'S das pizzas*/
+.pizza{
+    display: flex;
+    align-items: center;   
+    margin: 20px;
+    border-radius: 1em;
+    color: white;
+}
+.texto{
+    font-size: 25px;
+}
+.pizza:hover{
+    color: #ffffff;
+    background-color: #cc9439;
+}
+.pizzam{
+    border-radius: 1em;
+}
+/*Botões de tamanho das pizzas*/
+.button{
+display: flex;
+border-radius: 1em;
+background-color: #207c1e00;
+border: none;
+color: #990909;
+}
+.button:hover::before{
+    background-color: #861414;
+    color: #ffffff;
+    border: 2px solid black;
+    content: attr(title);
+    text-align: center;
+}
+.button:hover{
+    opacity: 1;
+    transition: opacity 0s ease-in-out;  
+    color: #cc9439;
+}
+/*Roda pé*/
+.contatos {
+    width: 100%;
+    background-color: #1f1e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.contatos h3 {
+   font-size: 6rem;
+   margin-bottom: 3rem;
+   font-family: 'Indie Flower', cursive;
+}
+
+.contatos-secao {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.contatos-secao i{
+    margin-right: 1rem;
+
+}
+
+.contatos-secao div{
+    cursor: pointer;
+}
+
+.contatos-secao div:hover{
+    color: #ffc506;}
